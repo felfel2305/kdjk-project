@@ -1,2 +1,47 @@
 # Tentang Matomo
-<h1 align="center"><
+<h1 align="center"><img src="https://raw.githubusercontent.com/felfel2305/kdjk-project/main/matomo%20logo.png"></h1>
+
+Matomo adalah aplikasi analitik web gratis dan sumber terbuka yang paling umum untuk melacak kunjungan daring ke satu atau beberapa situs web dan menampilkan laporan tentang kunjungan tersebut untuk dianalisis.
+
+# Instalasi
+//STEP 1 update sistem dan install dependensinya
+
+sudo apt update && sudo apt upgrade -y (TEKAN ENTER)
+sudo apt install apache2 mysql-server php php-mysql php-xml php-curl php-gd php-cli php-mbstring unzip -y (TEKAN ENTER)
+
+//STEP 2 download matomo
+
+//Masuk ke server webnya
+
+cd /var/www/html (TEKAN ENTER)
+
+//Download matomo zip
+
+sudo wget https://builds.matomo.org/matomo.zip (TEKAN ENTER)
+
+//Ekstrak file
+
+sudo wget https://builds.matomo.org/matomo.zip (TEKAN ENTER)
+
+//folder /var/www/html/matomo berisi semua file PHP-nya.
+
+//STEP 3
+
+//Atur izin folder agar apache bisa tulis/baca file
+
+sudo chown -R www-data:www-data /var/www/html/matomo (TEKAN ENTER)
+
+sudo chmod -R 755 /var/www/html/matomo (TEKAN ENTER)
+
+STEP 4
+Masuk mysql
+sudo mysql -u root -p (TEKAN ENTER)
+Query
+CREATE DATABASE matomo_db; (TEKAN ENTER)
+CREATE USER 'matomo_user'@'localhost' IDENTIFIED BY 'passwordku'; (TEKAN ENTER)
+GRANT ALL PRIVILEGES ON matomo_db.* TO 'matomo_user'@'localhost'; (TEKAN ENTER)
+FLUSH PRIVILEGES; (TEKAN ENTER)
+EXIT; (TEKAN ENTER)
+
+STEP 5
+http://localhost/matomo (di browser apa saja)
