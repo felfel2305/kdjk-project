@@ -2,7 +2,7 @@
 # Tentang Matomo
 <h1 align="center"><img src="https://raw.githubusercontent.com/felfel2305/kdjk-project/main/matomo%20logo.png"></h1>
 
-Matomo adalah aplikasi analitik web gratis dan sumber terbuka yang paling umum untuk melacak kunjungan daring ke satu atau beberapa situs web dan menampilkan laporan tentang kunjungan tersebut untuk dianalisis.
+Matomo adalah platform analitik open-source yang memungkinkan pemilik situs untuk melacak dan menganalisis perilaku pengunjung mereka. Sebelumnya dikenal sebagai Piwik, Matomo dirancang untuk memprioritaskan privasi data, sehingga cocok untuk organisasi yang membutuhkan solusi analitik yang transparan dan dapat disesuaikan. Matomo menawarkan berbagai fungsi yang bermanfaat bagi pengelolaan situs web, seperti analisis pengunjung, pelacakan konversi, integrasi e-commerce, dan pemantauan performa. Platform ini juga menjamin kepatuhan terhadap regulasi seperti GDPR dengan fitur privasi bawaan. Matomo adalah solusi ideal untuk organisasi yang memprioritaskan keamanan data dan memiliki kebutuhan analitik yang komprehensif.
 
 
 ## Panduan Instalasi Matomo di Server Linux
@@ -185,7 +185,7 @@ Password: `'adminku'`
 - Locations
   ![10](pic/realtimemap.png)
 - Device
-- ![11](<pic/device.pngpng>)
+- ![11](<pic/device.png>)
 - Software
 - ![12](<pic/softwarevisit.png>)
 - Time
@@ -202,8 +202,8 @@ Password: `'adminku'`
   Channel Types (Jenis Saluran) dari Matomo. Ini menunjukkan bahwa semua 2 kunjungan (Visits) dan 2 pengunjung unik (Unique Visitors) berasal dari Direct Entry. Fitur ini berguna untuk menganalisis asal trafik ke situs web , membantu menilai efektivitas upaya pemasaran dan bagaimana pengguna menemukan situs.
 
 ### 5\. Goals
-- ![16](<pic/goals.png>)
+- ![17](<pic/goals.png>)
   Evolution over the period (Evolusi selama periode): Grafik ini melacak konversi (Conversions) dari tujuan yang ditetapkan dari waktu ke waktu (di sini per hari, dari Sep 17 hingga Oct 15). Fitur ini berguna untuk memantau tren keberhasilan tujuan bisnis dan mengidentifikasi hari atau periode di mana terjadi peningkatan atau penurunan konversi.
 
-0 conversions @ 0% overall conversion rate: Bagian ini menunjukkan ringkasan kinerja. Dalam kasus ini, tercatat 0 konversi dari semua tujuan, menghasilkan tingkat konversi keseluruhan 0%. Matomo menggunakan fitur Goals untuk mengukur sasaran bisnis penting seperti pendaftaran, pembelian, atau pengunduhan file, sehingga dapat mengetahui seberapa efektif situs Anda mencapai target.
+  0 conversions @ 0% overall conversion rate: Bagian ini menunjukkan ringkasan kinerja. Dalam kasus ini, tercatat 0 konversi dari semua tujuan, menghasilkan tingkat konversi keseluruhan 0%. Matomo menggunakan fitur Goals untuk mengukur sasaran bisnis penting seperti pendaftaran, pembelian, atau pengunduhan file, sehingga dapat mengetahui seberapa efektif situs Anda mencapai target.
 
