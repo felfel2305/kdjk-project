@@ -109,8 +109,12 @@ sudo chmod -R 755 /var/www/html/matomo
 
 ### 10\. Penyelesaian Instalasi Web
 
-Setelah semua langkah di atas selesai, buka peramban Anda dan akses URL berikut untuk memulai proses konfigurasi Matomo melalui web installer:
+Kunjungi alamat IP untuk melanjutkan server
 
 ```
 http://<IP-PUBLIC>/matomo
 ```
+
+- Klik `'NEXT'` pada laman Welcome
+![1](pic/welcome.png)
+- 
