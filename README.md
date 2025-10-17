@@ -185,6 +185,7 @@ Password: `'adminku'`
 - Locations
   ![10](pic/realtimemap.png)
 - Device
+- ![11](pic/Screenshot 2025-10-17 212810.png).
 - Software
 - Time
 - User ID
