@@ -119,38 +119,30 @@ http://<IP-PUBLIC>/matomo
 
 - Isi database server, login, password, dan nama database seperti pada kode
 
-Database server: `'localhost'`
-
-Login: `'matomo_user'`
-
-Password: `'passwordku'`
-
-Database name: `'matomo_db'`
+  Database server: `'localhost'`
+  Login: `'matomo_user'`
+  Password: `'passwordku'`
+  Database name: `'matomo_db'`
 
 ![2](pic/DatabaseSetup-1.png)
 ![3](pic/DatabaseSetup-2.png)
 
 - Klik `'NEXT'` pada laman Creating the Table
 
-- Isi laman Superuser
+- Isi laman Superuser. Ganti `'adminku'` dengan kata sandi yang kuat.
 
-Superuser login: `'admin'`
-
-Password: `'adminku'`
-
-Password (repeat): `'adminku'`
-
-Email: `'example@gmail.com'`
+  Superuser login: `'admin'`
+  Password: `'adminku'`
+  Password (repeat): `'adminku'`
+  Email: `'example@gmail.com'`
 
 ![5](pic/Superuser.png)
 
-- Isi laman Set up a Website
+- Isi laman Set up a Website. Sesuaikan website timezone dengan 
 
-Website Name: `'Matomo'`
-
-Website URL: `'http://<IP-Public>'`
-
-Website Timezone: `'Indoneisa-Jakarta'`
+  Website Name: `'Matomo'`
+  Website URL: `'http://<IP-Public>'`
+  Website Timezone: `'Indoneisa-Jakarta'`
 
 E-commerce: `'Not an Ecommerce Site'`
 
@@ -164,7 +156,38 @@ E-commerce: `'Not an Ecommerce Site'`
 ### 1\. Login ke Matomo sebagai Admin
 
 Superuser login: `'admin'`
-
 Password: `'adminku'`
 
 ![6](pic/Login.png)
+
+### 2\. Overview Visitor Melalui Dashboard
+
+![7](pic/dashboard.png)
+
+
+## Fitur Matomo
+
+### 1\. Dashboard
+
+![7](pic/dashboard.png)
+
+### 2\. Visitors
+
+- Overview Visitors
+  ![8](pic/overviewvisitor.png)
+- Visitor Log
+  ![7](pic/dashboard.png)
+- Real-time Map
+  ![10](pic/realtimemap.png)
+- Locations
+  ![10](pic/realtimemap.png)
+- Device
+- Software
+- Time
+- User ID
+
+### 3\. Behaviour
+
+### 4\. Acquisition
+
+### 5\. Goals
