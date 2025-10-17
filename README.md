@@ -116,5 +116,7 @@ http://<IP-PUBLIC>/matomo
 ```
 
 - Klik `'NEXT'` pada laman Welcome
-![1](pic/welcome.png)
-- 
+![1](pic/Welcome.png)
+- Isi database server, login, password, dan nama database seperti pada kode
+![2](pic/DatabaseSetup-1.png)
+![3](DatabaseSetup-2.png)
