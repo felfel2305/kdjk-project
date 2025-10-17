@@ -185,13 +185,13 @@ Password: `'adminku'`
 - Locations
   ![10](pic/realtimemap.png)
 - Device
-- ![11](<pic/device.png>)
+  ![11](<pic/device.png>)
 - Software
-- ![12](<pic/softwarevisit.png>)
+  ![12](<pic/softwarevisit.png>)
 - Time
-- ![13](<pic/times.png>)
+  ![13](<pic/times.png>)
 - User ID
-- ![14](<pic/user.png>)
+  ![14](<pic/user.png>)
 
 ### 3\. Behaviour
 - ![15](<pic/pages.png>)
