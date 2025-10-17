@@ -171,7 +171,11 @@ Password: `'adminku'`
 
 ![7](pic/dashboard.png)
 
-### 2\. Visitors
+### 2\. All Websites
+
+![7](pic/allwebsite.png)
+
+### 3\. Visitors
 
 - Overview Visitors
   ![8](pic/overviewvisit.png)
