@@ -116,7 +116,15 @@ http://<IP-PUBLIC>/matomo
 ```
 
 - Klik `'NEXT'` pada laman Welcome
+  
 ![1](pic/Welcome.png)
+
 - Isi database server, login, password, dan nama database seperti pada kode
+
+Database server: `'localhost'`
+Login: `'matomo_user'`
+Password: `'passwordku'`
+Database name: `'matomo_db'`
+
 ![2](pic/DatabaseSetup-1.png)
-![3](DatabaseSetup-2.png)
+![3](pic/DatabaseSetup-2.png)
