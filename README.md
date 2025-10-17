@@ -194,15 +194,15 @@ Password: `'adminku'`
   ![14](<pic/user.png>)
 
 ### 3\. Behaviour
-- ![15](<pic/pages.png>)
+![15](<pic/pages.png>)
   Pages (Halaman) Matomo, mencantumkan dua halaman yang dikunjungi (/index dan /index.html). Laporan ini menunjukkan metrik utama seperti jumlah Pageviews, Unique Pageviews, dan Bounce Rate untuk setiap halaman. Fitur ini membantu memahami konten mana yang menarik dan bagaimana pengguna berinteraksi dengan berbagai halaman di situs web .
 
 ### 4\. Acquisition
-- ![16](<pic/chanel.png>)
+![16](<pic/chanel.png>)
   Channel Types (Jenis Saluran) dari Matomo. Ini menunjukkan bahwa semua 2 kunjungan (Visits) dan 2 pengunjung unik (Unique Visitors) berasal dari Direct Entry. Fitur ini berguna untuk menganalisis asal trafik ke situs web , membantu menilai efektivitas upaya pemasaran dan bagaimana pengguna menemukan situs.
 
 ### 5\. Goals
-- ![17](<pic/goals.png>)
+![17](<pic/goals.png>)
   Evolution over the period (Evolusi selama periode): Grafik ini melacak konversi (Conversions) dari tujuan yang ditetapkan dari waktu ke waktu (di sini per hari, dari Sep 17 hingga Oct 15). Fitur ini berguna untuk memantau tren keberhasilan tujuan bisnis dan mengidentifikasi hari atau periode di mana terjadi peningkatan atau penurunan konversi.
 
   0 conversions @ 0% overall conversion rate: Bagian ini menunjukkan ringkasan kinerja. Dalam kasus ini, tercatat 0 konversi dari semua tujuan, menghasilkan tingkat konversi keseluruhan 0%. Matomo menggunakan fitur Goals untuk mengukur sasaran bisnis penting seperti pendaftaran, pembelian, atau pengunduhan file, sehingga dapat mengetahui seberapa efektif situs Anda mencapai target.
