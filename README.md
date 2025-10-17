@@ -116,15 +116,55 @@ http://<IP-PUBLIC>/matomo
 ```
 
 - Klik `'NEXT'` pada laman Welcome
-  
-![1](pic/Welcome.png)
 
 - Isi database server, login, password, dan nama database seperti pada kode
 
 Database server: `'localhost'`
+
 Login: `'matomo_user'`
+
 Password: `'passwordku'`
+
 Database name: `'matomo_db'`
 
 ![2](pic/DatabaseSetup-1.png)
 ![3](pic/DatabaseSetup-2.png)
+
+- Klik `'NEXT'` pada laman Creating the Table
+
+- Isi laman Superuser
+
+Superuser login: `'admin'`
+
+Password: `'adminku'`
+
+Password (repeat): `'adminku'`
+
+Email: `'example@gmail.com'`
+
+![5](pic/Superuser.png)
+
+- Isi laman Set up a Website
+
+Website Name: `'Matomo'`
+
+Website URL: `'http://<IP-Public>'`
+
+Website Timezone: `'Indoneisa-Jakarta'`
+
+E-commerce: `'Not an Ecommerce Site'`
+
+- Klik `'NEXT'` pada laman Javascript Tracking Code
+
+- Klik `'NEXT'` pada laman Congratulations
+
+
+## Panduan Cara Pemakaian Matomo
+
+### 1\. Login ke Matomo sebagai Admin
+
+Superuser login: `'admin'`
+
+Password: `'adminku'`
+
+![6](pic/Login.png)
