@@ -124,8 +124,8 @@ http://<IP-PUBLIC>/matomo
   Password: `'passwordku'`
   Database name: `'matomo_db'`
 
-![2](pic/DatabaseSetup-1.png)
-![3](pic/DatabaseSetup-2.png)
+  ![2](pic/DatabaseSetup-1.png)
+  ![3](pic/DatabaseSetup-2.png)
 
 - Klik `'NEXT'` pada laman Creating the Table
 
@@ -136,15 +136,14 @@ http://<IP-PUBLIC>/matomo
   Password (repeat): `'adminku'`
   Email: `'example@gmail.com'`
 
-![5](pic/Superuser.png)
+  ![5](pic/Superuser.png)
 
-- Isi laman Set up a Website. Sesuaikan website timezone dengan 
+- Isi laman Set up a Website. 
 
   Website Name: `'Matomo'`
   Website URL: `'http://<IP-Public>'`
   Website Timezone: `'Indoneisa-Jakarta'`
-
-E-commerce: `'Not an Ecommerce Site'`
+  E-commerce: `'Not an Ecommerce Site'`
 
 - Klik `'NEXT'` pada laman Javascript Tracking Code
 
