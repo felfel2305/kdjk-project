@@ -206,4 +206,42 @@ Password: `'adminku'`
   Evolution over the period (Evolusi selama periode): Grafik ini melacak konversi (Conversions) dari tujuan yang ditetapkan dari waktu ke waktu (di sini per hari, dari Sep 17 hingga Oct 15). Fitur ini berguna untuk memantau tren keberhasilan tujuan bisnis dan mengidentifikasi hari atau periode di mana terjadi peningkatan atau penurunan konversi.
 
   0 conversions @ 0% overall conversion rate: Bagian ini menunjukkan ringkasan kinerja. Dalam kasus ini, tercatat 0 konversi dari semua tujuan, menghasilkan tingkat konversi keseluruhan 0%. Matomo menggunakan fitur Goals untuk mengukur sasaran bisnis penting seperti pendaftaran, pembelian, atau pengunduhan file, sehingga dapat mengetahui seberapa efektif situs Anda mencapai target.
+ # PEMBAHASAN 
+ 
+  ## Kelebihan
+  Salah satu kelebihan terbesar dari Matomo adalah sifatnya yang open-source, yang berarti siapa pun dapat mengunduh, menggunakan, dan menyesuaikannya tanpa biaya lisensi. Pengguna bisa memodifikasi sistem sesuai kebutuhan, misalnya menambahkan plugin atau mengintegrasikannya dengan platform lain. Dari sisi keamanan dan privasi, Matomo juga unggul karena seluruh data pengunjung disimpan secara lokal di server sendiri. Ini membuat pengguna tidak perlu khawatir datanya dianalisis atau digunakan oleh pihak ketiga, seperti yang sering terjadi pada layanan cloud analytics.
+
+   Selain itu, Matomo memiliki fitur analitik yang sangat lengkap, mulai dari laporan pengunjung secara real-time, pelacakan sumber trafik, analisis perilaku pengguna, hingga heatmap dan session recording untuk memahami aktivitas pengunjung secara mendalam. Fitur Tag Manager dan dukungan integrasi dengan berbagai CMS seperti WordPress, Drupal, dan Joomla juga memudahkan pengguna dalam pengelolaan situs. Semua fitur ini menjadikan Matomo sebagai solusi analitik yang fleksibel dan sangat bisa diandalkan untuk berbagai kebutuhan, baik akademik, bisnis, maupun penelitian.
+
+   ## Kekurangan
+   Meskipun memiliki banyak keunggulan, Matomo juga memiliki beberapa kekurangan yang perlu dipertimbangkan. Salah satunya adalah kebutuhan akan kemampuan teknis. Karena sistemnya bersifat self-hosted, pengguna harus memahami cara mengelola server, mengonfigurasi database, serta menangani pembaruan dan keamanan secara mandiri. Hal ini bisa menjadi tantangan bagi pengguna yang belum terbiasa dengan pengelolaan web server.
+
+   Dari sisi performa, Matomo juga sangat bergantung pada spesifikasi server. Jika situs memiliki trafik yang sangat tinggi dan server tidak cukup kuat, proses pengolahan data bisa menjadi lambat. Selain itu, meskipun versi dasarnya gratis, beberapa fitur lanjutan seperti analisis funnel, form analytics, dan custom reporting hanya tersedia di versi berbayar atau Matomo Cloud, sehingga pengguna mungkin harus mengeluarkan biaya tambahan jika ingin memanfaatkan semua kemampuanny
+
+   # Perbandingan Matomo dengan aplikasi web lain yang sejenis
+   ## Matomo vs Plausible
+   Kelebihan Matomo: Lebih komprehensif, memiliki fitur analitik web lanjutan yang lengkap seperti Tag Manager, Heatmaps, Session Recordings, A/B Testing, dan E-commerce Reporting yang krusial untuk tim pemasaran. Matomo juga menyediakan kontrol privasi dan kepatuhan (GDPR Manager) yang lebih mendalam serta dukungan profesional.
+
+   Kelebihan Plausible: Lebih sederhana dan ringan. Tracking script Plausible hanya 1 KB, memastikan kinerja situs web yang optimal. Plausible unggul jika hanya dibutuhkan metrik trafik dasar (pengunjung, pageviews, sumber) dalam tampilan yang bersih dan minimalis, tanpa kurva pembelajaran yang rumit.
+
+   ## Matomo vs Umami
+   Kelebihan Matomo: Jauh lebih skalabel untuk menangani volume trafik yang sangat besar (kelas enterprise) dengan keamanan yang lebih matang. Matomo menawarkan kedalaman analisis yang tidak dimiliki Umami, termasuk segmentasi lanjutan, funnels, dan pelaporan e-commerce.
+
+Kelebihan Umami: Sepenuhnya gratis untuk self-hosted dan sangat ringan. Cocok untuk developer atau proyek kecil yang memprioritaskan kesederhanaan, kecepatan, dan biaya operasional yang sangat rendah, meskipun fitur yang ditawarkan sangat terbatas (hanya metrik dasar dan event tracking sederhana).
+
+   ## Matomo vs PostHog
+   Kelebihan Matomo: Lebih berorientasi pada analisis pemasaran dan e-commerce tradisional. Matomo memiliki lebih banyak integrasi siap pakai dengan platform Content Management System (CMS) dan e-commerce untuk analisis konten.
+
+   Kelebihan PostHog: Jauh lebih unggul dalam Analitik Produk dan pengembangan. PostHog adalah platform All-in-One yang menyertakan Feature Flags, A/B Testing, Session Replay, dan Surveys sebagai fitur inti dan terintegrasi penuh. Jika tim Anda adalah tim produk/rekayasa yang fokus pada perilaku pengguna dalam aplikasi, PostHog lebih powerful dan menawarkan fleksibilitas yang lebih besar, termasuk akses SQL langsung ke data mentah.
+   
+   # Referensi
+   1. [About Matomo](https://matomo.org/) - Matomo
+   2. [How to Instal Matomo on Linux Servers](https://matomo.org/faq/how-to-install/faq_17844/) - Matomo
+   3. [Install Matomo on Ubuntu 20.04](https://docs.vultr.com/install-matomo-on-ubuntu-20-04) - Vultr
+   4. [Matomo vs Plausible](https://matomo.org/plausible-vs-matomo/) - Matomo
+   5. [Umami vs Matomo](https://vemetric.com/blog/umami-vs-matomo) - Vementric
+   6. [Posthog vs matomo](https://posthog.com/blog/posthog-vs-matomo) - Posthog
+
+
+
 
