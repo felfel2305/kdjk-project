@@ -174,7 +174,7 @@ Password: `'adminku'`
 ### 2\. Visitors
 
 - Overview Visitors
-  ![8](pic/overviewvisitor.png)
+  ![8](pic/overviewvisit.png)
 - Visitor Log
   ![7](pic/dashboard.png)
 - Real-time Map
